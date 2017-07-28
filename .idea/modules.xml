@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CordovaLibrary.iml" filepath="$PROJECT_DIR$/CordovaLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cordova.6.2.3-release/cordova.6.2.3-release.iml" filepath="$PROJECT_DIR$/cordova.6.2.3-release/cordova.6.2.3-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cordovapackage/cordovapackage.iml" filepath="$PROJECT_DIR$/cordovapackage/cordovapackage.iml" />
+    </modules>
+  </component>
+</project>

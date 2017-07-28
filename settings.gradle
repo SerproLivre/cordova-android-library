@@ -1,0 +1,2 @@
+include ':app', ':cordovapackage', ':cordova.6.2.3-release'
+project(':cordova.6.2.3-release').projectDir = new File(rootProject.projectDir, '/cordova.6.2.3-release')
