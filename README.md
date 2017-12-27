@@ -30,11 +30,13 @@ using command below:
 sudo apt-get install gradle
 ```
 
-2. Into this project path, run the command:
+2. Into this project path, run the command: (or use **Android Studio**)
 
 ```bash
 gradle assembleRelease
 ```
+
+> **PS:** The file **cordovapackage-release.aar** will be generated in: `cordovapackage/build/outputs/aar`
     
 3. Import the **`cordovapackage-release.aar`** into your android native project from `File > New Module > Import .JAR/.AAR package`
 4. Add this imported module like a dependency on `buil.gradle` like this:
