@@ -42,7 +42,23 @@ gradle assembleRelease
 4. Add this imported module like a dependency on `buil.gradle` like this:
 
 ```groovy
-    compile project(':my-cordova-library')
+compile project(':my-cordova-library')
+```
+
+Or use like a **Jitpack dependency** into your(s) `build.gradle` file(s):
+
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    compile 'com.github.SerproLivre:cordova-android-library:0.0.1'
+}
+
 ```
 
 5. The [cordova-android](https://github.com/apache/cordova-android) core classes + _cordova_ plugins will be allowed to use in your project
