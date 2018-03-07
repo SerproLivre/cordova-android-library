@@ -1,19 +1,18 @@
 apply plugin: 'com.android.library'
-apply from: 'https://raw.githubusercontent.com/mfdeveloper/android-fat-aar/aar-module-dependency/fat-aar.gradle'
+apply from: 'https://raw.githubusercontent.com/adwiv/android-fat-aar/master/fat-aar.gradle'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "26.0.0"
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -29,5 +28,9 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
-    embedded project(':cordova.6.2.3-release')
+
+    /**
+     * ------------ Cordova Dependencies ------------
+     */
+    implementation 'com.github.mfdeveloper:cordova-android:7.1.1'
 }
