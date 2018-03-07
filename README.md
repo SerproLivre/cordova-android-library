@@ -56,7 +56,7 @@ allprojects {
 }
 
 dependencies {
-    compile 'com.github.SerproLivre:cordova-android-library:0.0.1'
+    implementation 'com.github.SerproLivre:cordova-android-library:0.0.2'
 }
 
 ```
